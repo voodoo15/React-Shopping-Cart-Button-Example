@@ -18,7 +18,8 @@ class Counters extends Component {
             onIncrement={this.props.onIncrement}
             key={counter.id}
             counter={counter}
-          />) }
+          />)
+        }
       </div>
     );
   };
