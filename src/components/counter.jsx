@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 class Counter extends Component {
 
   render() {
-    const {onIncrement, onDelete, counter} = this.props;
+    const {onIncrement, onDecrement, onDelete, counter} = this.props;
 
     return (
       <div>
@@ -12,7 +12,13 @@ class Counter extends Component {
           className="btn btn-secondary btn-sm"
           onClick={() => onIncrement(counter)}
         >
-          Increment
+          +
+        </button>
+        <button
+          className="btn btn-secondary btn-sm m-2"
+          onClick={() => onDecrement(counter)}
+        >
+          -
         </button>
         <button
           onClick={() => onDelete(counter.id)}
