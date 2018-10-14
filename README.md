@@ -5,3 +5,12 @@ This demo demonstrates a shopping cart functionality, with a nav that displays t
 ## Built With
 
 * React.js
+
+## To Fix
+
+* Will need to add a '-' button to decrease the counter
+* Add a '+' button to the counters component to add new counter components
+
+## demo URL
+
+* https://react-shopping-cart-btn-demo.herokuapp.com/
