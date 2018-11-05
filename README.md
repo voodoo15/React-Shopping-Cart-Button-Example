@@ -9,7 +9,7 @@ This demo demonstrates a shopping cart functionality, with a nav that displays t
 ## To Fix
 
 * Will need to add a '-' button to decrease the counter (done)
-* Add a '+' button to the counters component to add new counter components
+* Add an 'add' button to the counters component to add new counter components (done)
 * Add a message when there are no counter components on the list
 
 ## demo URL
