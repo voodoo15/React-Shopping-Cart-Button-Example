@@ -15,7 +15,7 @@ class Counters extends Component {
         </button>
         <button
           onClick={onAdd}
-          className="btn btn-primary btn-small m-2"
+          className="btn btn-success btn-small m-2"
         >
           Add
         </button>
